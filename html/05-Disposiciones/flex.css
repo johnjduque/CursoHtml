@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+  background-color: yellow;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cont-1 {
+  background-color: aliceblue;
+  height: 200px;
+  width: 100px;
+  border: 1px solid blue;
+}
+
+.cont-2 {
+  background-color: aliceblue;
+  height: 200px;
+  width: 100px;
+  border: 1px solid blue;
+}
+
+.cont-3 {
+  background-color: aliceblue;
+  height: 200px;
+  width: 100px;
+  border: 1px solid blue;
+}
