@@ -1,0 +1,50 @@
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"] {
+    color: red;
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 1px solid rgba(255, 166, 0, 0.192);
+    outline: none;
+    padding: 5px;
+    color: orange;
+}
+
+.input-moderno:focus {
+    border-bottom: 1px solid blue;
+}
+
+.input-background {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: white;
+    box-shadow: 0 0 10px;
+}
+
+.input-search {
+    padding: 10px;
+    padding-left: 30px;
+    
+    border-radius: 8px;
+    margin: 10px;
+    background-image: url('../img/lupa.jpg');
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,20 @@
+h1 {
+  color: aquamarine;
+}
+
+p {
+  color: blue;
+  font-size: 50pt;
+}
+
+p#uno {
+  color: bisque;
+}
+
+.enca {
+  font-size: 24pt;
+}
+
+*.warning {
+  color: red;
+}

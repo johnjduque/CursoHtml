@@ -1,0 +1,54 @@
+.padre {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-bottom: 2px solid darkgreen;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.btn-modern:hover {
+    transition: 0.4s;
+    transform: translateY(-5px);
+    color: black;
+    background-color: bisque;
+}
+
+.sombra {
+    position: absolute;
+    opacity: 0;
+    width: 60px;
+    height: 5px;
+    transform: translateY(25px) translateX(-50px);
+    background-color: #333;
+    padding: 5px 10px;
+    transition: opacity 0.4s;
+    border-radius: 5px;
+}
+
+.btn-modern:hover .sombra {
+    opacity: 1;
+}
+
+.sombra::before {
+    border: solid 10px transparent;
+    border-top-color: #333;
+    position: absolute;
+}
